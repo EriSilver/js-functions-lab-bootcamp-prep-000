@@ -7,7 +7,7 @@ function happyHolidays ()
 function happyHolidaysTo (name)
 {
   var string = name;
-  return 'Happy holidays, ${name}!';
+  return 'Happy holidays, ${string}!';
 }
 
 console.log(happyHolidaysTo("mimi"));
