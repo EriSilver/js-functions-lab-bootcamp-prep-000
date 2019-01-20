@@ -6,8 +6,7 @@ function happyHolidays ()
 
 function happyHolidaysTo (name)
 {
-  var string = name;
-  return 'Happy holidays, {$string}!';
+  return 'Happy holidays, '+ name + ' !';
 }
 
 console.log(happyHolidaysTo("mimi"));
